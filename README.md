@@ -62,10 +62,7 @@ Syntactic Parsing: Analyzing grammatical structures for differentiation.
 
 🔥 How to Run the Project
 
-Clone the repository:
-
-git clone https://github.com/yourusername/quora-question-pairs.git
-cd quora-question-pairs
+Clone the repository
 
 Install required dependencies:
 
