@@ -28,7 +28,7 @@
 - 📊 Data Processing: `pandas`, `numpy`
 - 📝 NLP: `nltk`, `beautifulsoup4`
 - 📈 Visualization: `matplotlib`, `seaborn`, `plotly`
-- 🤖 ML (optional): `scikit-learn`, `xgboost`
+- 🤖 ML: `scikit-learn`, `xgboost`
 
 ## ⚡ Quick Start
 
