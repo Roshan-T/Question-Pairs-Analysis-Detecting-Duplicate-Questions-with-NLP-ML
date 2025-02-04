@@ -1,82 +1,78 @@
-Question Pairs Analysis: Detecting Duplicate Questions with NLP & ML
+# 🔍 Question Pairs Analysis
 
-🚀 Project Overview
+> Detect duplicate questions using NLP and machine learning techniques. Advanced analysis of linguistic patterns and semantic similarities between question pairs.
 
-This project analyzes the Question Pairs dataset to detect duplicate questions using Natural Language Processing (NLP) and machine learning techniques. Through comprehensive Exploratory Data Analysis (EDA) and feature extraction, we gain insights into patterns that distinguish duplicate and non-duplicate questions.
+## 🎯 Key Features
 
-📌 Key Features
+- 🧹 **Text Preprocessing**: Clean and normalize question text
+- 🛠️ **Feature Engineering**: Extract linguistic and semantic features
+- 📊 **Similarity Analysis**: Implement various distance metrics and embeddings
+- 📈 **Visualizations**: Generate insights through statistical analysis
+- 🤖 **Machine Learning**: Train models to predict duplicate questions
 
-Exploratory Data Analysis (EDA): Visualizing and understanding the dataset.
+## 💾 Dataset Structure
 
-Text Preprocessing: Cleaning and normalizing question text.
+```python
+{
+  'question1': 'First question text',
+  'question2': 'Second question text',
+  'is_duplicate': 0/1,
+  'qid1': 'unique_id_1',
+  'qid2': 'unique_id_2'
+}
+```
 
-Feature Engineering: Extracting meaningful linguistic and semantic features.
+## 🛠️ Tech Stack
 
-Similarity Measures: Utilizing distance metrics and embeddings for comparison.
+- 🐍 Python 3.x
+- 📊 Data Processing: `pandas`, `numpy`
+- 📝 NLP: `nltk`, `beautifulsoup4`
+- 📈 Visualization: `matplotlib`, `seaborn`, `plotly`
+- 🤖 ML (optional): `scikit-learn`, `xgboost`
 
-Machine Learning Models (optional): Predicting duplicate questions using ML algorithms.
+## ⚡ Quick Start
 
-📂 Dataset Details
+```bash
+# Clone repository
+git clone https://github.com/yourusername/question-pairs-analysis.git
 
-The dataset consists of question pairs labeled as either duplicate (1) or non-duplicate (0).
-
-Columns:
-
-question1, question2: The pair of questions to analyze.
-
-is_duplicate: A binary label indicating duplication.
-
-qid1, qid2: Unique identifiers for each question.
-
-🛠️ Technologies Used
-
-Python: Core programming language.
-
-Pandas, NumPy: Data manipulation and analysis.
-
-Matplotlib, Seaborn, Plotly: Data visualization.
-
-NLTK, BeautifulSoup: Text preprocessing.
-
-Scikit-learn, XGBoost (optional): Machine learning models.
-
-📊 Exploratory Data Analysis (EDA)
-
-Word Clouds: Visualizing frequently used words in duplicate and non-duplicate questions.
-
-Statistical Distribution Analysis: Understanding word counts, sentence structures, and punctuation usage.
-
-t-SNE Visualizations: Exploring high-dimensional feature spaces.
-
-Pairwise Distance Metrics: Assessing textual similarity using various methods.
-
-🏗️ Feature Engineering
-
-Lexical Similarity: Jaccard similarity, Cosine similarity.
-
-NLP Embeddings: Word2Vec, TF-IDF, or Sentence Transformers.
-
-String Distance Metrics: Levenshtein distance, Damerau-Levenshtein distance.
-
-Syntactic Parsing: Analyzing grammatical structures for differentiation.
-
-🔥 How to Run the Project
-
-Clone the repository
-
-Install required dependencies:
-
+# Install dependencies
+cd question-pairs-analysis
 pip install -r requirements.txt
 
-Open the Jupyter Notebook:
-
+# Run Jupyter
 jupyter notebook QUORA.ipynb
+```
 
-📈 Insights & Findings
+## 📊 Analysis Components
 
-Duplicate questions often share similar structures and key phrases.
+### 🔍 EDA
+- Word frequency distributions
+- Statistical patterns analysis
+- t-SNE dimension reduction
+- Similarity metrics evaluation
 
-Common stop words and phrasing patterns appear frequently in duplicate pairs.
+### 🛠️ Feature Engineering
+- Lexical similarity metrics
+- Word embeddings implementation
+- String distance calculations
+- Syntactic pattern analysis
 
-Combining lexical, syntactic, and semantic features enhances model performance.
+## 🎯 Results
 
+Key findings:
+- 📌 Identified structural patterns in duplicates
+- 🔄 Mapped common phrase combinations
+- 📊 Evaluated similarity metric effectiveness
+
+
+## 🤝 Contributing
+
+1. Fork repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
+
+## ⭐ Star Us!
+If this project helps you, please consider giving it a star!
